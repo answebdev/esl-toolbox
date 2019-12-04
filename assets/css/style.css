@@ -41,7 +41,8 @@ body {
 }
 
 #explore-btn,
-.search-btn {
+.search-btn,
+#back-btn {
   background-color: #337ab7;
   color: #ffffff;
   letter-spacing: 1.5px;
@@ -49,10 +50,24 @@ body {
   border-color: #ffffff;
 }
 
+.search-btn:hover {
+  background-color: #337ab7;
+}
+
+.search-btn:active {
+  background-color: #ffffff !important;
+  color: #337ab7 !important;
+}
+
 .card {
   margin: 0 auto;
   float: none;
   margin-bottom: 40px;
+}
+
+ul.a {
+  list-style-type: circle;
+  /* list-style-position: inside; */
 }
 
 /* ===== MEDIA QUERIES ===== */
