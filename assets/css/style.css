@@ -2,9 +2,24 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#home {
+  background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover, cover;
+  background-position: center, center;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 1px;
+  /* background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover, cover;
+  background-position: center, center; */
 }
 
 .bg-primary {
@@ -17,10 +32,57 @@ body {
   letter-spacing: 1.5px;
 }
 
-#explore-btn {
+.jumbotron {
+  opacity: 0.93;
+}
+
+.display-4 {
+  letter-spacing: 1.5px;
+}
+
+#explore-btn,
+.search-btn {
   background-color: #337ab7;
   color: #ffffff;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   border-color: #ffffff;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 40px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
 }
