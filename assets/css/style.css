@@ -1,8 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 1px;
 }
 
+.bg-primary {
+  background-color: #337ab7 !important;
+}
+
 .navbar-brand {
   font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+#explore-btn {
+  background-color: #337ab7;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-color: #ffffff;
 }
