@@ -10,6 +10,8 @@ body {
 
 #home {
   background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  /* background: url('https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+  /* background: url('../images/landing-image02.png'); */
   background-size: cover, cover;
   background-position: center, center;
 }
@@ -29,6 +31,10 @@ body {
 .navbar-brand {
   font-weight: 700;
   font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.nav-link {
   letter-spacing: 1.5px;
 }
 
@@ -65,14 +71,58 @@ body {
 }
 
 .card {
+  width: 80%;
   margin: 0 auto;
   float: none;
   margin-bottom: 40px;
 }
 
+.left-card {
+  float: left;
+  clear: both;
+}
+
+.right-card {
+  float: right;
+  clear: both;
+}
+
 ul.a {
   list-style-type: circle;
   /* list-style-position: inside; */
+}
+
+/* ============ STICKY FOOTER =========== */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+#main-header {
+  margin-top: 40px;
+}
+
+#main-footer {
+  background-color: #337ab7 !important;
+}
+
+.py-3 {
+  padding-bottom: 0 !important;
+}
+
+#footer-content {
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 /* ===== MEDIA QUERIES ===== */
