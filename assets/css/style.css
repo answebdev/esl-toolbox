@@ -96,6 +96,11 @@ ul.a {
   /* list-style-position: inside; */
 }
 
+#esl-toolbox-logo {
+  width: 85%;
+  float: left;
+}
+
 #disclaimer {
   font-size: 0.75rem;
 }
