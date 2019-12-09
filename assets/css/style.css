@@ -45,9 +45,10 @@ body {
   margin-top: -5px;
 }
 
-/* .jumbotron {
-  opacity: 0.93;
-} */
+.jumbotron {
+  /* opacity: 0.93; */
+  background-color: #f3f3f3;
+}
 
 .display-4 {
   letter-spacing: 1.5px;
