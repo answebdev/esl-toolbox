@@ -10,7 +10,6 @@ body {
 
 #home {
   background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  /* background: url('https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
   /* background: url('../images/landing-image02.png'); */
   background-size: cover, cover;
   background-position: center, center;
@@ -21,10 +20,6 @@ body {
   letter-spacing: 1px;
   color: #0e1822;
   background-color: #f3f3f3;
-  /* color: #212529; */
-  /* background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: cover, cover;
-  background-position: center, center; */
 }
 
 .bg-primary {
@@ -106,6 +101,7 @@ ul.a {
 }
 
 /* ============ STICKY FOOTER =========== */
+
 html,
 body {
   height: 100%;
