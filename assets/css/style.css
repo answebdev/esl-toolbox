@@ -92,6 +92,10 @@ ul.a {
   /* list-style-position: inside; */
 }
 
+#disclaimer {
+  font-size: 0.75rem;
+}
+
 /* ============ STICKY FOOTER =========== */
 html,
 body {
