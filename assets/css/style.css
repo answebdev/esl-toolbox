@@ -46,6 +46,11 @@ body {
   background-color: #f3f3f3;
 }
 
+/* .fb-like {
+  float: right;
+  background-color: #337ab7;
+} */
+
 .display-4 {
   letter-spacing: 1.5px;
 }
