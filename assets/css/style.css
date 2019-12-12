@@ -44,7 +44,7 @@ body {
   z-index: 1000;
 }
 
-#button::after {
+/* #button::after {
   content: '\f077';
   font-family: FontAwesome;
   font-weight: normal;
@@ -52,7 +52,7 @@ body {
   font-size: 2em;
   line-height: 50px;
   color: #fff;
-}
+} */
 
 #button:hover {
   cursor: pointer;
