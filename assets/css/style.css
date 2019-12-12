@@ -8,11 +8,6 @@ body {
   width: 100%;
 }
 
-/* Makes scroll smooth when clicking on Leave a Comment Below */
-/* html {
-  scroll-behavior: smooth;
-} */
-
 #home {
   background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   /* background: url('../images/landing-image02.png'); */
@@ -74,10 +69,6 @@ body {
   color: #f3f3f3;
 }
 
-/* a {
-  color: #337ab7;
-} */
-
 .bg-primary {
   background-color: #337ab7 !important;
 }
@@ -101,20 +92,6 @@ body {
   /* opacity: 0.93; */
   background-color: #f3f3f3;
 }
-
-/* .fb-like {
-  float: right;
-  background-color: #337ab7;
-} */
-
-/* #fboverlay {
-  filter: alpha(opacity=60);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  filter: hue-rotate(90deg);
-} */
 
 .display-4 {
   letter-spacing: 1.5px;
@@ -158,7 +135,6 @@ body {
 
 ul.a {
   list-style-type: circle;
-  /* list-style-position: inside; */
 }
 
 #esl-toolbox-logo {
