@@ -88,6 +88,10 @@ body {
   margin-top: -5px;
 }
 
+/* #jumbo-container {
+  padding-bottom: 40px;
+} */
+
 .jumbotron {
   /* opacity: 0.93; */
   background-color: #f3f3f3;
@@ -201,12 +205,42 @@ body {
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
+  #home {
+    background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+
+  #jumbo-container {
+    padding-bottom: 40px;
+  }
+
   .card {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
+  #home {
+    background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+
+  #jumbo-container {
+    padding-bottom: 40px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 10px) and (max-width: 320px) {
+  #home {
+    background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+
+  #jumbo-container {
+    padding-bottom: 40px;
+  }
+
   .card {
     width: 100%;
   }
