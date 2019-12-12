@@ -8,6 +8,11 @@ body {
   width: 100%;
 }
 
+/* Makes scroll smooth when clicking on Leave a Comment Below */
+/* html {
+  scroll-behavior: smooth;
+} */
+
 #home {
   background: url('https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   /* background: url('../images/landing-image02.png'); */
@@ -21,6 +26,51 @@ body {
   color: #0e1822;
   background-color: #f3f3f3;
 }
+
+/* Back To Top Button */
+#button {
+  display: inline-block;
+  background-color: #337ab7;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: '\f077';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333333;
+}
+
+#button:active {
+  background-color: #fbaa65;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* a {
+  color: #337ab7;
+} */
 
 .bg-primary {
   background-color: #337ab7 !important;
@@ -49,6 +99,15 @@ body {
 /* .fb-like {
   float: right;
   background-color: #337ab7;
+} */
+
+/* #fboverlay {
+  filter: alpha(opacity=60);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: hue-rotate(90deg);
 } */
 
 .display-4 {
