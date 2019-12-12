@@ -68,6 +68,12 @@ body {
   visibility: visible;
 }
 
+.fa-chevron-up {
+  font-size: 40px;
+  margin-top: 4px;
+  color: #f3f3f3;
+}
+
 /* a {
   color: #337ab7;
 } */
