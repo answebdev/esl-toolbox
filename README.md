@@ -15,6 +15,7 @@ Open Graph Tags have been added so that when a link to or from the website is sh
 * ShareThis
 * GraphComment
 * JavaScript
+* Font Awesome
 * Bootstrap
 * CSS
 * HTML
