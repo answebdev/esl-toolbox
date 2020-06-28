@@ -16,6 +16,7 @@ Open Graph Tags have been added so that when a link to or from the website is sh
 * GraphComment
 * JavaScript
 * Font Awesome
+* Google Fonts
 * Bootstrap
 * CSS
 * HTML
