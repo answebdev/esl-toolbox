@@ -22,6 +22,10 @@ body {
   background-color: #f3f3f3;
 }
 
+.main-container {
+  padding: 2em;
+}
+
 /* Back To Top Button */
 #button {
   /* display: inline-block; */
@@ -73,6 +77,10 @@ body {
   background-color: #337ab7 !important;
 }
 
+.navbar-toggler-icon {
+  cursor: pointer;
+}
+
 .navbar-brand {
   font-weight: 700;
   font-size: 24px;
@@ -109,6 +117,10 @@ body {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   border-color: #ffffff;
+}
+
+#back-btn:hover {
+  cursor: pointer;
 }
 
 .search-btn:hover {

@@ -1,5 +1,5 @@
 // Smooth scrolling when clicking to go to Comments section
-$('.smooth-goto').on('click', function() {
+$('.smooth-goto').on('click', function () {
   $('html, body').animate({ scrollTop: $(this.hash).offset().top - 50 }, 1000);
   return false;
 });
@@ -7,7 +7,7 @@ $('.smooth-goto').on('click', function() {
 // Back To Top Button
 var btn = $('#button');
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -15,9 +15,16 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
+btn.on('click', function (e) {
   e.preventDefault();
   $('html, body').animate({ scrollTop: 0 }, '300');
+});
+
+// Footer Year
+let = currentYear = new Date().getFullYear();
+let yearSpan = document.querySelectorAll('.year');
+yearSpan.forEach((yearText) => {
+  yearText.innerHTML = currentYear;
 });
 
 // GraphComment Comment Section
@@ -28,12 +35,12 @@ window.gc_params = {
   graphcomment_id: 'ESLToolbox',
 
   // if your website has a fixed header, indicate it's height in pixels
-  fixed_header_height: 0
+  fixed_header_height: 0,
 };
 
 /* - - - DON'T EDIT BELOW THIS LINE - - - */
 
-(function() {
+(function () {
   var gc = document.createElement('script');
   gc.type = 'text/javascript';
   gc.async = true;
