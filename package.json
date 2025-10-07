@@ -1,0 +1,24 @@
+{
+  "name": "esl-toolbox",
+  "version": "1.0.0",
+  "description": "ESL Toolbox is a resource hub for students and teachers of ESL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/answebdev/english-toolbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/answebdev/english-toolbox/issues"
+  },
+  "homepage": "https://github.com/answebdev/english-toolbox#readme",
+  "devDependencies": {
+    "cypress": "^15.3.0"
+  }
+}
