@@ -1,4 +1,4 @@
-# ESL Toolbox
+# ESL Toolbox [![ci](https://github.com/answebdev/esl-toolbox/actions/workflows/cy.yaml/badge.svg)](https://github.com/answebdev/esl-toolbox/actions/workflows/cy.yaml)
 
 # Project Description
 
