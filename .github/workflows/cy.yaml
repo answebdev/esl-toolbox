@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '5 8 * * 0'
 jobs:
