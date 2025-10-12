@@ -1,4 +1,4 @@
-# ESL Toolbox [![pages-build-deployment](https://github.com/answebdev/esl-toolbox/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/answebdev/esl-toolbox/actions/workflows/pages/pages-build-deployment)
+# ESL Toolbox [![ci](https://github.com/answebdev/esl-toolbox/actions/workflows/cy.yaml/badge.svg?branch=master)](https://github.com/answebdev/esl-toolbox/actions/workflows/cy.yaml)
 
 # Project Description
 
