@@ -2,7 +2,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for grammar.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('grammar.html'); // Replace with page URL or file name to be tested
+    cy.visit('grammar.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
@@ -76,7 +76,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for listening.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('listening.html'); // Replace with page URL or file name to be tested
+    cy.visit('listening.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
@@ -150,7 +150,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for reading.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('reading.html'); // Replace with page URL or file name to be tested
+    cy.visit('reading.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
@@ -224,7 +224,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for other.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('other.html'); // Replace with page URL or file name to be tested
+    cy.visit('other.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
@@ -301,7 +301,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for test-prep.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('test-prep.html'); // Replace with page URL or file name to be tested
+    cy.visit('test-prep.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
@@ -375,7 +375,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for vocabulary.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('vocabulary.html'); // Replace with page URL or file name to be tested
+    cy.visit('vocabulary.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
@@ -452,7 +452,7 @@ describe('Check site for broken links', () => {
   it('should log broken links for writing.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
-    cy.visit('writing.html'); // Replace with page URL or file name to be tested
+    cy.visit('writing.html'); // File name to be tested
 
     cy.get('a').each(($el) => {
       const link = $el.attr('href');
