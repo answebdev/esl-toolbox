@@ -1,4 +1,4 @@
-describe('Check site for broken links', () => {
+describe('Check website for broken links', () => {
   it('should log broken links for grammar.html', () => {
     const brokenLinks = []; // Initialize an array to collect broken links
 
