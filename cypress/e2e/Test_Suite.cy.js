@@ -16,7 +16,7 @@ describe('Check website for broken links', () => {
       cy.request({
         url: link,
         failOnStatusCode: false, // Prevent Cypress from failing the test immediately on non-2xx responses
-        timeout: 60000, // Increase the timeout to 60 seconds
+        timeout: 60000, // Timeout of 60 seconds
       }).then((response) => {
         // Skip if the response is a redirect (3xx)
         if (response.status >= 300 && response.status < 400) {
