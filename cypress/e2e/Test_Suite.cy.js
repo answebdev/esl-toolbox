@@ -264,7 +264,7 @@ describe('Check website for broken links', () => {
       // Write the summary message to a file
       cy.writeFile(
         'cypress/results/OtherTopics_brokenLinks.txt',
-        summaryMessage
+        summaryMessage,
       );
 
       // Use cy.task to log the results to the terminal
@@ -415,7 +415,7 @@ describe('Check website for broken links', () => {
       // Write the summary message to a file
       cy.writeFile(
         'cypress/results/Vocabulary_brokenLinks.txt',
-        summaryMessage
+        summaryMessage,
       );
 
       // Use cy.task to log the results to the terminal
